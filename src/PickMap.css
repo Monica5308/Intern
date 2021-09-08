@@ -1,0 +1,152 @@
+.pickup
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     background: transparent;
+    }
+
+.pick
+{
+    z-index: 10;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.drop
+{
+    z-index: 10;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pbutton
+{
+    z-index: 10;
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+
+}
+
+
+.head
+{
+    z-index: 15;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 10px;   
+    visibility: hidden;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+
+.Vehicles
+{
+    max-height: 110px;
+    overflow-x: scroll;
+    position: relative;
+    display: flex;
+    margin-top: 22px;
+}
+
+
+.vehicle_1
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:forestgreen;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.vehicle_2
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:forestgreen;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.vehicle_3
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:forestgreen;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.vehicle_4
+{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:forestgreen;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.vehicle_5
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:forestgreen;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.pay
+{
+    padding: 5px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    
+
+}

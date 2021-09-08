@@ -1,0 +1,79 @@
+.Order
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: forestgreen;
+    border-radius: 10px;
+    z-index: 5;
+    border: none;
+    box-shadow: 5%;
+    padding: 70px;
+
+}
+
+.Order_pickup
+{
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.Order_drop
+{
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+
+
+.vehicle_order
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.select_vehicle
+{
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+} 
+
+.order_price
+{
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+
+.status
+{
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}

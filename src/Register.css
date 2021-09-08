@@ -1,0 +1,63 @@
+.register
+{
+    display: inline-block;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.reg_name
+{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.reg_mobile
+{
+    width: 200px;
+    height: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 5%;
+     padding: 2%;
+     border-radius: 10px;
+}
+
+.reg_button
+{
+    color: white;
+    background-color:forestgreen;
+    width: 210px;
+    height: 30px;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.Heading
+{
+    
+    width: 210px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link
+{
+    width: auto;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    color: green;
+}

@@ -1,0 +1,115 @@
+.Login
+{   
+    display: inline-block;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+
+.mobile
+{   
+    width: 200px;
+    height: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 5%;
+     padding: 2%;
+     border-radius: 10px;
+}
+
+.name
+{    
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+
+}
+
+.button
+{
+    color: white;
+    background-color: forestgreen;
+    width: 210px;
+    height: 30px;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.Heading
+{
+    width: 210px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.link
+{
+   width: auto;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    color: green;
+    
+}
+
+.OTP
+{   
+    visibility: hidden;
+    display: inline-block;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2%;
+    background-color: yellow;
+    padding-left: 5%;
+    padding-right: 7%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-radius: 20px;
+    
+}
+.head
+{  
+    width: 210px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.button_otp
+{
+    color: white;
+    background-color: forestgreen;
+    width: 210px;
+    height: 30px;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.OTP_input
+{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10px;
+    
+}
